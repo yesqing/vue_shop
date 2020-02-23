@@ -346,7 +346,7 @@ export default {
         this.$message.success('用户信息修改成功')
       })
     },
-    // 根据id删除用户
+    // 根据ID删除用户
     async deleteUser(id) {
       // console.log(id)
       // 弹框询问是否删除
@@ -402,7 +402,7 @@ export default {
     },
     // 监听分配角色对话框关闭事件
     setRoleDialogColsed() {
-      this.selectRoleId = '',
+      this.selectRoleId = ''
       this.userInfo = {}
     }
   }
